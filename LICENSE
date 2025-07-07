@@ -3,7 +3,7 @@ ACADEMIC PUBLIC LICENSE for TenCirChem, v1.0
 The following license governs the use of TenCirChem in non-commercial academic environments. Commercial use requires a
 commercial license (qlab@tencent.com).
 
-Copyright (C) 2023 THL A29 Limited, a Tencent company.  All rights reserved.
+Copyright (C) 2023 Tencent.  All rights reserved.
 
 Preamble
 
@@ -120,4 +120,4 @@ by law or agreed in writing. The disclaimer also includes consequential damages 
 alone or in conjunction with other programs, including but not limited to the loss or corruption of data.
 
 Initially written by Andras Varga (public domain) for OMNeT++ https://omnetpp.org/intro/license,
-adapted by THL A29 Limited. The adaptation is licensed under CC0 1.0 (Public Domain Dedication).
+adapted by Tencent. The adaptation is licensed under CC0 1.0 (Public Domain Dedication).
