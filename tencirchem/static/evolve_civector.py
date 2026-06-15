@@ -33,10 +33,15 @@ def get_fket_phase(f_idx, ci_strings):
     if len(f_idx) == 2:
         mask1 = 1 << f_idx[0]
         mask2 = 1 << f_idx[1]
-    else:
-        assert len(f_idx) == 4
+    elif len(f_idx) == 4:
+        #assert len(f_idx) == 4
         mask1 = (1 << f_idx[0]) + (1 << f_idx[1])
         mask2 = (1 << f_idx[2]) + (1 << f_idx[3])
+    else: 
+        assert len(f_idx) == 6
+        mask1 = (1 << f_idx[0]) + (1 << f_idx[1])
+        mask2 = (1 << f_idx[2]) + (1 << f_idx[3])
+        mask3 = (1 << f_idx[4]) + (1 << f_idx[5])
     flip = ci_strings ^ mask1
     mask = mask1 | mask2
     masked = flip & mask
