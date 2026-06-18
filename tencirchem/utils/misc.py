@@ -123,7 +123,7 @@ def get_n_qubits(vector_or_matrix_or_mpo_func):
 def ex_op_to_fop(ex_op, with_conjugation=False):
     if len(ex_op) == 2:
         fop = FermionOperator(f"{ex_op[0]}^ {ex_op[1]}")
-    elif:
+    elif len(ex_op) == 4:
         #assert len(ex_op) == 4
         fop = FermionOperator(f"{ex_op[0]}^ {ex_op[1]}^ {ex_op[2]} {ex_op[3]}")
     else:
