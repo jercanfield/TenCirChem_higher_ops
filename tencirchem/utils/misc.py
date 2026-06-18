@@ -71,7 +71,7 @@ def reverse_fop_idx(op: FermionOperator, n_qubits: int) -> FermionOperator:
 def format_ex_op(ex_op: Tuple) -> str:
     if len(ex_op) == 2:
         return f"{ex_op[0]}^ {ex_op[1]}"
-    elif:
+    elif len(ex_op) == 4:
         return f"{ex_op[0]}^ {ex_op[1]}^ {ex_op[2]} {ex_op[3]}"
     else:
         assert len(ex_op) == 6
